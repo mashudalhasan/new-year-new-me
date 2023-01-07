@@ -117,3 +117,37 @@
     font-size: 25px;
     color: #737272;
 }
+
+/* Flyer Styles */
+
+.flyer {
+    position: absolute;
+    background-image: url('../images/watch.png');
+    background: linear-gradient(rgba(241, 91, 34, 0));
+    ;
+    background-size: cover;
+    width: 1140px;
+    height: 300px;
+    left: 230px;
+    top: 2222.26px;
+    border-radius: 8px;
+    margin: 130px 230px;
+    justify-content: center;
+    
+}
+
+.flyer-title {
+   
+    width: 459px;
+    height: 94px;
+    left: 350px;
+    top: 2300px;
+}
+
+.flyer-btn {
+    
+    width: 160px;
+    height: 64px;
+    left: 294px;
+    top: 2399.26px;
+}
