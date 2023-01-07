@@ -91,7 +91,7 @@
 
 /* My Plan Styles */
 
-.plan-title {
+.section-title {
     text-align: center;
     align-items: center;
     font-weight: 700;
@@ -122,32 +122,149 @@
 
 .flyer {
     position: absolute;
-    background-image: url('../images/watch.png');
-    background: linear-gradient(rgba(241, 91, 34, 0));
-    ;
+    background-image: linear-gradient(to right, rgba(238, 61, 16, 0.52), rgba(247, 242, 246, 0.73)), url('../images/watch.png');
     background-size: cover;
-    width: 1140px;
-    height: 300px;
-    left: 230px;
-    top: 2222.26px;
-    border-radius: 8px;
-    margin: 130px 230px;
+    width: 800px;
+    height: 250px;
     justify-content: center;
-    
+    border-radius: 8px;
+    border: none;
+    align-items: center;
+    text-align: left;
+    left: 20%;
+    top: 2400px;
 }
 
 .flyer-title {
-   
+    font-weight: 700;
+    font-size: 40px;
     width: 459px;
-    height: 94px;
-    left: 350px;
-    top: 2300px;
+    height: 50px;
+    text-align: left;
+    padding: 50px;
+    color: #FFFFFF;
 }
 
 .flyer-btn {
-    
+    position: absolute;
     width: 160px;
     height: 64px;
-    left: 294px;
-    top: 2399.26px;
+    margin-left: 50px;
+    margin-bottom: 500px;
+    background: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #F15B22;
+}
+
+/* soft skills styles */
+
+.soft-skills {
+    margin-top: 200px;
+}
+
+.skills-container {
+    display: flex;
+    gap: 24px;
+    padding-top: 20px;
+}
+
+.skill {
+    background-color: antiquewhite;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 15px;
+    padding: 30px;
+}
+
+.skill-title {
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.skill-description {
+    font-size: 16px;
+    color: #757575;
+}
+
+/* footer styles */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 577px;
+    margin-top: 550px;
+    background: #151414;
+}
+
+.future {
+    color: #F8F8F8;
+    padding: 100px;
+}
+
+.footer-title {
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.footer-description {
+    font-weight: 400;
+    font-size: 16px;
+    width: 485px;
+    height: 78px;
+    margin-top: 16px;
+    margin-bottom: 24px;
+}
+
+.footer-email {
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+
+.social-icon {
+    margin-top: 390px;
+    text-align: left;
+    justify-content: left;
+    gap: 10px;
+
+}
+
+.subscription {
+    padding: 100px;
+}
+
+.subscription h3 {
+    font-weight: 600;
+    font-size: 25px;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+
+.subscription input {
+    width: 325px;
+    height: 64px;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: #151414;
+    color: #FFFFFF;
+}
+
+.subscription button {
+    width: 170.11px;
+    height: 64px;
+    font-weight: 600;
+    font-size: 20px;
+    background: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    color: #F15B22;
+    margin-top: 16px;
+}
+
+.social-icon {
+    display: flex;
 }
